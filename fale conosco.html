@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="fale conosco.css">
+</head>
+
+<body>
+    <h1>Prezado Cliente, Seja bem-vindo!</h1>
+
+    <h2>Preencha o formulário abaixo.</h2>
+
+    <form id="contactForm">
+        <fieldset>
+            <legend>Entre em contato</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </fieldset>
+    </form>
+
+    
+   <div id="mensagemEnviada" style="display: none;"> 
+        <h2>Mensagem Enviada!</h2>
+        <p>Obrigado por entrar em contato conosco. Responderemos em breve.</p>
+    </div>
+
+    <a href="index.html">Voltar à Página Principal</a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<h2>Localização</h2>
+    <p>Avenida Sete de Setembro, 1000 - Salvador Bahia</p>
+
+    <!-- Adicione o mapa com a localização aqui -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.5855313677275!2d-43.17620848507935!3d-12.97226099085466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604a94727ac05%3A0xe72f5de8a2ec5d97!2sAvenida%20Sete%20de%20Setembro%2C%201000%20-%20Centro%2C%20Salvador%20-%20BA%2C%2040005-001!5e0!3m2!1sen!2sbr!4v1633102213699!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
